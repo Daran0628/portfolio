@@ -124,26 +124,36 @@ header .gnb {
    .skills_wrap {
       width: 85%;height: 100%;
       margin: auto;
-      border:1px dashed lightgrey;
+      /* border:1px dashed lightgrey; */
    }
    .skills_wrap .skill_list {
-      display: flex;flex-wrap: wrap;
-      justify-content: center;
+      display: flex;flex-wrap: wrap;justify-content: center;
+      row-gap: 5rem;
    }
    .skills_wrap .skill_list li {
       display: flex;flex-direction:column;align-items: center;gap: 1.5rem;
+      position: relative;
       width: calc(100% / 3);
       padding: 2rem;
-      border:1px dashed lightgrey;
+      text-align: center;
    }
-   .skills_wrap .skill_list p {text-align: center;}
    .skill_list li .skill_bar {
-      width:35rem;height:35rem;
-      background: rgba(255,255,255,0.3);
+      width:30rem;height:30rem;
+      position: relative;
+      border-radius: 50%;
+      background: conic-gradient(#fff calc(var(--percentage) * 1%), rgba(255,255,255,0.1) 0);
+      -webkit-mask: radial-gradient(farthest-side, transparent calc(100% - 1.8rem), black 0);
+      display: flex;
+      align-items: center;
+      /* position: relative; */
    }
    .skill_list li .skill_title {
-      display: none;flex-direction: column;
+      display: flex;flex-direction: column;align-items: center;
+      position: absolute;left: 50%;top: 50%;
+      transform: translate(-50%, -70%);
+      font-size: 3.8rem;font-weight: 700;
    }
+   /* .skills_wrap .skill_list p {text-align: center;} */
 
 
 
