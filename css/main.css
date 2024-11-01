@@ -9,7 +9,7 @@
    body {font-size: 1.5rem;}
    h1 {font-size: 3rem;}
    h2 {font-size: 2.5rem;}
-   h3 {font-size: 2rem;}
+   h3 {font-size: 2.5rem;}
 
    .inner {
       width: 90%;
@@ -93,7 +93,6 @@ header .gnb {
       /* border:1px dashed lightgrey */
    }
    
-
    .profile .detail_info {
       display: flex;gap: 4.5rem;
       width: 60%;
@@ -167,9 +166,7 @@ header .gnb {
    }
    .portfolio_wrap .por_div {
       display: flex;justify-content: space-between;
-      width: 100%;
-      /* height: 150vh; */
-      background: lightgray;}
+      width: 100%;}
    .portfolio .port_list {
       flex-shrink: 0;
       width: 50rem;height: 30rem;background: darkcyan;}
