@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -19,6 +18,13 @@
          <div class="header_wrap">
             <h1><a href="#"><span>Daran</span></a></h1>
             <div class="gnb"><i class="ri-menu-fill"></i></div>
+            <ul class="gnb_menu">
+               <li><a href="#profile">_ PROFILE</a></li>
+               <li><a href="#skills">_ SKILLS</a></li>
+               <li><a href="#portfolio">_ PORTFOLIO</a></li>
+               <li><a href="#contact">_ CONTACT</a></li>
+               <li class="gnb_close"><i class="ri-close-large-line"></i></li>
+            </ul>
          </div>
       </header>
          <section class="main_visual">
@@ -40,24 +46,26 @@
             </div>
          </section>
          
-         <section class="profile">
+         <section class="profile" id="profile">
                <div class="inner">
                   <h2>profile_</h2>
                   <div class="profile_wrap">
-                     <div class="my_info">
-                        <span>신다란</span><strong>Daran Shin</strong>
+                     <div class="my_pic">
                         <img src="./img/daran_profilePic_2.png" alt="다란의 프로필 사진">
-                        <p>1988. 09. 29.</p>
-                        <p>+82 010 8225 8565</p>
-                        <p>moon.daran.s@gmail.com</p>
                      </div>
-                     <div class="detail_info">
-                        <div class="detail_left">
+                     <div class="my_info">
+                           <span>신다란</span><strong>Daran Shin</strong>
+                           <div class="detail_info">
+                              <div class="detail_left">
+                                 <ul class="basic_info">
+                                    <li><i class="ri-calendar-check-fill"></i>   1988. 09. 29.</li>
+                                    <li><i class="ri-phone-fill"></i>   010. 8225. 8565</li>
+                                    <li><i class="ri-mail-fill"></i> moon.daran.s@gmail.com</li>
+                                 </ul>
                                  <div class="info_box">
                                     <span>CHARACTER</span>
                                     <p>
-                                       #도전적 #호기심 #집념 #책임감 #끈기<br>
-                                       #창의적
+                                       #도전적 #호기심 #집념 #끈기<br>#창의적 #책임감 
                                     </p>
                                  </div>
                                  <div class="info_box">
@@ -68,33 +76,35 @@
                                        <li>mbc 아카데미 컴퓨터 교육센터</li>
                                     </ul>
                                  </div>
-                                 <div class="info_box">
-                                    <span>INTERSTED IN</span>
-                                    <p>
-                                       #코딩 #아트 #드로잉 #일러스트 #디자인<br>
-                                       #도전 #등산 #러닝 #영어 #일본어<br>
-                                       #가구DIY #뜨개질 #수공예 #고양이
-                                    </p>
-                                 </div>
+                                 
+                        </div>
+                     <div class="detail_right">
+                        <div class="info_box">
+                             <span>INTERSTED IN</span>
+                             <p>
+                                #코딩 #아트 #드로잉 #일러스트 #디자인<br>
+                                #도전 #등산 #러닝 #영어 #일본어<br>
+                                #가구DIY #뜨개질 #수공예 #고양이
+                             </p>
                         </div>
                         <div class="info_box">
-                           <span>SOFTWARES</span>
-                           <ul class="softwares">
-                              <li>
-                                 <p>Photoshop</p><p>&#9675 &#9675 &#9675 &#9679 &#9675</p>
-                              </li>
-                              <li>
-                                 <p>Illustrator</p><p>&#9675 &#9675 &#9675 &#9679 &#9675</p></li>
-                              <li><p>After Effect</p><p>&#9675 &#9679 &#9675 &#9675 &#9675</p></li>
-                              <li><p>Figma</p><p>&#9675 &#9675 &#9679 &#9675 &#9675</p></li>
-                              <li><p>Clip Studio Paint</p><p>&#9675 &#9675 &#9675 &#9679 &#9675</p></li>
-                           </ul>
+                             <span>SOFTWARES</span>
+                             <ul class="softwares">
+                                <li>
+                                   <p>Photoshop</p><p>&#9675 &#9675 &#9675 &#9679 &#9675</p>
+                                </li>
+                                <li>
+                                   <p>Illustrator</p><p>&#9675 &#9675 &#9675 &#9679 &#9675</p></li>
+                                   <li><p>After Effect</p><p>&#9675 &#9679 &#9675 &#9675 &#9675</p></li>
+                                   <li><p>Figma</p><p>&#9675 &#9675 &#9679 &#9675 &#9675</p></li>
+                                   <li><p>Clip Studio Paint</p><p>&#9675 &#9675 &#9675 &#9679 &#9675</p></li>
+                                </ul>
                         </div>
-                  </div>
+                     </div>
             </div>
          </section>
          
-         <section class="skills">
+         <section class="skills" id="skills">
             <div class="inner">
                <h2>skills_</h2>
                <div class="skills_wrap">
@@ -104,7 +114,7 @@
                         </div>
                         <div class="skill_title">
                            <span>HTML5</span>
-                           <span>80%</span>
+                           <span class="skill_percentage">80%</span>
                         </div>
                         <p>웹 접근성, 웹 표준에 맞는<br>
                            홈페이지를 만들 수 있습니다.</p>
@@ -114,20 +124,20 @@
                         </div>
                         <div class="skill_title">
                            <span>CSS</span>
-                           <span>80%</span>
+                           <span class="skill_percentage">80%</span>
                         </div>
-                        <p>웹 접근성, 웹 표준에 맞는<br>
-                           홈페이지를 만들 수 있습니다.</p>
+                        <p>스타일의 속성을 이해하고 있고<br>
+                           반응형 홈페이지 만들 수 있습니다.</p>
                   </li>
                   <li>
-                        <div class="skill_bar" style="--percentage: 60">
+                        <div class="skill_bar" style="--percentage: 50">
                         </div>
                         <div class="skill_title">
                            <span>JAVA<br>SCRIPT</span>
-                           <span>60%</span>
+                           <span>50%</span>
                         </div>
-                        <p>웹 접근성, 웹 표준에 맞는<br>
-                           홈페이지를 만들 수 있습니다.</p>
+                        <p>자바 스크립트에 대한<br>
+                           기본적인 지식을 가지고 있습니다.</p>
                   </li>
                   <li>
                      <div class="skill_bar" style="--percentage: 70">
@@ -136,99 +146,104 @@
                            <span>JQUERY</span>
                            <span>70%</span>
                         </div>
-                        <p>웹 접근성, 웹 표준에 맞는<br>
-                           홈페이지를 만들 수 있습니다.</p>
+                        <p>오픈 소스를 활용 할 수 있고<br>
+                           간단한 효과는 직접 개발 가능합니다.</p>
                   </li>
                   <li>
                         <div class="skill_bar" style="--percentage: 40">
                         </div>
                         <div class="skill_title">
                            <span>REACT</span>
-                           <span>40%</span>
+                           <span>30%</span>
                         </div>
-                        <p>웹 접근성, 웹 표준에 맞는<br>
-                           홈페이지를 만들 수 있습니다.</p>
+                        <p>JSX, 컴포넌트의 개념을 숙지하고 있습니다.</p>
                   </li>
                   <li>
-                        <div class="skill_bar" style="--percentage: 00">
+                        <div class="skill_bar" style="--percentage: 80">
                         </div>
                         <div class="skill_title">
-                           <span>PS</span>
-                           <span>00%</span>
+                           <span>PHOTO<br>SHOP</span>
+                           <span>80%</span>
                         </div>
-                        <p>웹 접근성, 웹 표준에 맞는<br>
-                           홈페이지를 만들 수 있습니다.</p>
+                        <p>포토샵의 사용법을 숙지하고 있으며<br>
+                           편히 활용할 수 있습니다.</p>
                   </li>
                </ul>
             </div>
-         </div>
+         </div> 
       </section>
 
-         <section class="portfolio">
+         <section class="portfolio" id="portfolio">
             <div class="inner">
                <h2>portfolio_</h2>
                <div class="portfolio_wrap">
                   <h3>web coding_</h3>
                   <div class="por_div">
                      <ul class="port_list">
-                        <li><a href="#work_a">프린트 메니아_</a></li>
-                        <li><a href="#work_b">코엑스_</a></li>
-                        <li><a href="#work_c">TBA_</a></li>
+                        <li><a href="#work_a">프린트 메니아<i class="ri-arrow-right-up-line"></i></a></li>
+                        <li><a href="#work_b">코엑스<i class="ri-arrow-right-up-line"></i></a></li>
+                        <li><a href="#work_c">포트폴리오<i class="ri-arrow-right-up-line"></i></a></li>
                      </ul>
                      <ul class="port_thumbnails">
                         <li id="work_a">
-                           <p>리뉴얼 웹 페이지</p>
+                           <p>리뉴얼 웹 코딩</p>
                            <span>프린트 매니아</span>
-                           <img src="" alt="">
-                           <div class="contents">
-                              <strong>aaa</strong>
-                              <p>aaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+                           <img src="./img/763cc22ba116f.jpg" alt="">
+                           <div class="contents_wrap">
+                              <div class="contents">
+                                 <strong>기술 스택 </strong>
+                                 <p>HTML,  CSS,  Java Script,  jQuery </p>
+                              </div>
+                              <div class="contents">
+                                 <strong>기여도 </strong>
+                                 <p>퍼블리싱 % + 개발  %</p>
+                              </div>
+                              <a href="#" class="view_link">view</a>
                            </div>
                            <div class="contents">
-                              <strong>bbb</strong>
-                              <p>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</p>
+                              <strong>+</strong>
+                              <p>소규모 창작자들을 위한 인쇄 업체로 </p>
                            </div>
-                           <div class="contents">
-                              <strong>ccc</strong>
-                              <p>cccccccccccccccccccccccccccccccc</p>
-                           </div>
-                           <a href="#" class="view_link">VIEW</a>
                         </li>
                         <li id="work_b">
-                           <p></p>
-                           <span></span>
-                           <img src="" alt="">
-                           <div class="contents">
-                              <strong></strong>
-                              <p></p>
+                           <p>클론 코딩 : 반응형</p>
+                           <span>코엑스</span>
+                           <img src="./img/{21885216-E57F-47F2-92E5-6BA5B3950D6C}.png" alt="">
+                           <div class="contents_wrap">
+                              <div class="contents">
+                                 <strong>기술 스택 </strong>
+                                 <p>HTML,  CSS,  Java Script,  jQuery </p>
+                              </div>
+                              <div class="contents">
+                                 <strong>기여도 </strong>
+                                 <p>퍼블리싱 % + 개발  %</p>
+                              </div>
+                              <a href="#" class="view_link">view</a>
                            </div>
                            <div class="contents">
-                              <strong></strong>
-                              <p></p>
+                              <strong>+</strong>
+                              <p> </p>
                            </div>
-                           <div class="contents">
-                              <strong></strong>
-                              <p></p>
-                           </div>
-                           <a href="#" class="view_link"></a>
                         </li>
                         <li id="work_c">
-                           <p></p>
-                           <span></span>
-                           <img src="" alt="">
-                           <div class="contents">
-                              <strong></strong>
-                              <p></p>
+                           <p>웹 코딩</p>
+                           <span>포트폴리오 페이지</span>
+                           <img src="./img/{5CC5999A-0922-4A74-B931-E34B1F3F581A}.png" alt="">
+                           <div class="contents_wrap">
+                              <div class="contents">
+                                 <strong>기술 스택 </strong>
+                                 <p>HTML,  CSS,  Java Script</p>
+                              </div>
+                              <div class="contents">
+                                 <strong>기여도 </strong>
+                                 <p>퍼블리싱 100% + 개발  %</p>
+                              </div>
+                              <a href="#" class="view_link">view</a>
                            </div>
                            <div class="contents">
-                              <strong></strong>
-                              <p></p>
+                              <strong>+</strong>
+                              <p>소규모 창작자들을 위한 인쇄 업체로 </p>
                            </div>
-                           <div class="contents">
-                              <strong></strong>
-                              <p></p>
-                           </div>
-                           <a href="#" class="view_link"></a>
                         </li>
                      </ul>
                   </div>
@@ -236,42 +251,41 @@
                   <h3>graphic design_</h3>
                   <div class="por_div">
                      <ul class="port_list">
-                        <li><a href="#work_aa"></a></li>
-                        <li><a href="#work_bb"></a></li>
+                        <li><a href="#work_aa">브랜드 로고<i class="ri-arrow-right-up-line"></i></a></li>
+                        <li><a href="#work_bb">표지 디자인<i class="ri-arrow-right-up-line"></i></a></li>
                      </ul>
                      <ul class="port_thumbnails">
                         <li id="work_aa">
-                           <p></p>
-                           <span></span>
+                           <p>디자인</p>
+                           <span>브랜드 로고</span>
                            <img src="" alt="">
-                           <div class="contents">
-                              <strong></strong>
-                              <p></p>
+                           <div class="contents_wrap">
+                              <div class="contents">
+                                 <strong>기술 스택 </strong>
+                                 <p>Photoshop, Illustrator </p>
+                              </div>
+                              <!-- <a href="#" class="view_link">view</a> -->
                            </div>
                            <div class="contents">
-                              <strong></strong>
-                              <p></p>
-                           </div>
-                           <div class="contents">
-                              <strong></strong>
-                              <p></p>
+                              <strong>+</strong>
+                              <p>more about</p>
                            </div>
                         </li>
+                        </li>
                         <li id="work_bb">
-                           <p></p>
-                           <span></span>
+                           <p>디자인</p>
+                           <span>북 커버</span>
                            <img src="" alt="">
-                           <div class="contents">
-                              <strong></strong>
-                              <p></p>
+                           <div class="contents_wrap">
+                              <div class="contents">
+                                 <strong>기술 스택 </strong>
+                                 <p>Photoshop, Illustrator </p>
+                              </div>
+                              <!-- <a href="#" class="view_link">view</a> -->
                            </div>
                            <div class="contents">
-                              <strong></strong>
-                              <p></p>
-                           </div>
-                           <div class="contents">
-                              <strong></strong>
-                              <p></p>
+                              <strong>+</strong>
+                              <p>more about</p>
                            </div>
                         </li>
                      </ul>
@@ -280,317 +294,38 @@
             </div>
          </section>
 
-         <section class="contact">
+         <section class="contact" id="contact">
             <div class="inner">
                <h2>contact_</h2>
                <div class="contact_wrap">
-                  <span class="ending_msg">THANK YOU <br>FOR YOURE TIME!</span>
+                  <span class="ending_msg">THANK YOU <br>FOR YOUR TIME!</span>
                   <ul class="contact_info">
-                     <li>010 8225 8465</li>
-                     <li>moon.daran.s@gmail.com</li>
-                     <!-- <li></li> -->
+                     <li><i class="ri-mail-line"></i> moon.daran.s@gmail.com</li>
+                     <li><i class="ri-kakao-talk-line"></i> DARAN0628</li>
+                     <li><i class="ri-github-fill"></i>  https://github.com/Daran0628<li>
                   </ul>
                </div>
             </div>
          </section>
    </div>
+
+   <!-- js -->
+   <!-- <script scr="./js/main.js"></script> -->
+   <script>
+      
+const $gnb = document.querySelector(".gnb");
+const $gnbMenu = document.querySelector(".gnb_menu");
+const $gnbClose = document.querySelector(".gnb_close");
+
+$gnb.onclick = function () {
+  console.log("gnb showing");
+  $gnbMenu.style.display = "block";
+};
+$gnbClose.onclick = function () {
+  console.log("gnb closing");
+  $gnbMenu.style.display = "none";
+};
+
+   </script>
+   
 </body>
-=======
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>[신다란] 웹퍼블리셔 포트폴리오</title>
-   <!-- css -->
-<link rel="stylesheet" href="./css/reset.css">
-<link rel="stylesheet" href="./css/style.css">
-<link rel="stylesheet" href="./css/font.css">
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"/>
-
-</head>
-<body>
-   <div id='index_wrap'>
-      <header>
-         <div class="header_wrap">
-            <h1><a href="#"><span>Daran</span></a></h1>
-            <div class="gnb"><i class="ri-menu-fill"></i></div>
-         </div>
-      </header>
-         <section class="main_visual">
-            <div class="inner">
-                  <div class="text_box">
-                     <p>WEB PUBLISHER<br>
-                        DARAN'S<br>
-                        PORTFOLIO
-                        <span>
-                           HAVING A DSIRE TO LEARN & GLOW UP<br>
-                           LIKE A BLACK HOLE THAT IS<br> CONSTANTLY ABSORBING & EXPANDING<br>
-                           WITHIN THE UNIVERSE<br>
-                           OF THE WORLD WIDE WEB.
-                        </span>
-                        
-                     </p>
-                     
-                  </div>
-            </div>
-         </section>
-         
-         <section class="profile">
-               <div class="inner">
-                  <h2>profile_</h2>
-                  <div class="profile_wrap">
-                     <div class="my_info">
-                        <span>신다란</span><strong>Daran Shin</strong>
-                        <img src="./img/daran_profilePic_2.png" alt="다란의 프로필 사진">
-                        <p>1988. 09. 29.</p>
-                        <p>+82 010 8225 8565</p>
-                        <p>moon.daran.s@gmail.com</p>
-                     </div>
-                     <div class="detail_info">
-                        <div class="detail_left">
-                                 <div class="info_box">
-                                    <span>CHARACTER</span>
-                                    <p>
-                                       #도전적 #호기심 #집념 #책임감 #끈기<br>
-                                       #창의적
-                                    </p>
-                                 </div>
-                                 <div class="info_box">
-                                    <span>EDUCATION</span>
-                                    <ul>
-                                       <li>서울 금천 고등학교 졸업</li>
-                                       <li>University of the Fraser Valley 졸업</li>
-                                       <li>mbc 아카데미 컴퓨터 교육센터</li>
-                                    </ul>
-                                 </div>
-                                 <div class="info_box">
-                                    <span>INTERSTED IN</span>
-                                    <p>
-                                       #코딩 #아트 #드로잉 #일러스트 #디자인<br>
-                                       #도전 #등산 #러닝 #영어 #일본어<br>
-                                       #가구DIY #뜨개질 #수공예 #고양이
-                                    </p>
-                                 </div>
-                        </div>
-                        <div class="info_box">
-                           <span>SOFTWARES</span>
-                           <ul class="softwares">
-                              <li>
-                                 <p>Photoshop</p><p>&#9675 &#9675 &#9675 &#9679 &#9675</p>
-                              </li>
-                              <li>
-                                 <p>Illustrator</p><p>&#9675 &#9675 &#9675 &#9679 &#9675</p></li>
-                              <li><p>After Effect</p><p>&#9675 &#9679 &#9675 &#9675 &#9675</p></li>
-                              <li><p>Figma</p><p>&#9675 &#9675 &#9679 &#9675 &#9675</p></li>
-                              <li><p>Clip Studio Paint</p><p>&#9675 &#9675 &#9675 &#9679 &#9675</p></li>
-                           </ul>
-                        </div>
-                  </div>
-            </div>
-         </section>
-         
-         <section class="skills">
-            <div class="inner">
-               <h2>skills_</h2>
-               <div class="skills_wrap">
-               <ul class="skill_list">
-                  <li>
-                        <div class="skill_bar" style="--percentage: 80">
-                        </div>
-                        <div class="skill_title">
-                           <span>HTML5</span>
-                           <span>80%</span>
-                        </div>
-                        <p>웹 접근성, 웹 표준에 맞는<br>
-                           홈페이지를 만들 수 있습니다.</p>
-                  </li>
-                  <li>
-                        <div class="skill_bar" style="--percentage: 80">
-                        </div>
-                        <div class="skill_title">
-                           <span>CSS</span>
-                           <span>80%</span>
-                        </div>
-                        <p>웹 접근성, 웹 표준에 맞는<br>
-                           홈페이지를 만들 수 있습니다.</p>
-                  </li>
-                  <li>
-                        <div class="skill_bar" style="--percentage: 60">
-                        </div>
-                        <div class="skill_title">
-                           <span>JAVA<br>SCRIPT</span>
-                           <span>60%</span>
-                        </div>
-                        <p>웹 접근성, 웹 표준에 맞는<br>
-                           홈페이지를 만들 수 있습니다.</p>
-                  </li>
-                  <li>
-                     <div class="skill_bar" style="--percentage: 70">
-                     </div>
-                     <div class="skill_title">
-                           <span>JQUERY</span>
-                           <span>70%</span>
-                        </div>
-                        <p>웹 접근성, 웹 표준에 맞는<br>
-                           홈페이지를 만들 수 있습니다.</p>
-                  </li>
-                  <li>
-                        <div class="skill_bar" style="--percentage: 40">
-                        </div>
-                        <div class="skill_title">
-                           <span>REACT</span>
-                           <span>40%</span>
-                        </div>
-                        <p>웹 접근성, 웹 표준에 맞는<br>
-                           홈페이지를 만들 수 있습니다.</p>
-                  </li>
-                  <li>
-                        <div class="skill_bar" style="--percentage: 00">
-                        </div>
-                        <div class="skill_title">
-                           <span>VUE</span>
-                           <span>00%</span>
-                        </div>
-                        <p>웹 접근성, 웹 표준에 맞는<br>
-                           홈페이지를 만들 수 있습니다.</p>
-                  </li>
-               </ul>
-            </div>
-         </div>
-      </section>
-
-         <section class="portfolio">
-            <div class="inner">
-               <h2>portfolio_</h2>
-               <div class="portfolio_wrap">
-                   <div class="por_div">
-                       <ul class="port_list">
-                        <li><h3>web coding_</h3></li>
-                        <li><a href="#work_a">프린트 매니아</a></li>
-                        <li><a href="#work_b">COEX</a></li>
-                        <li><a href="#work_c"></a></li>
-                     </ul>
-                     <ul class="port_thumbnails">
-                        <li id="work_a">
-                           <p>리뉴얼</p>
-                           <span>프린트 매니아</span>
-                           <img src="" alt="">
-                           <div class="contents">
-                              <strong>html css js</strong>
-                              <p></p>
-                           </div>
-                           <div class="contents">
-                              <strong></strong>
-                              <p></p>
-                           </div>
-                           <div class="contents">
-                              <strong></strong>
-                              <p></p>
-                           </div>
-                           <a href="#" class="view_link">view</a>
-                        </li>
-                        <li id="work_b">
-                           <p></p>
-                           <span></span>
-                           <img src="" alt="">
-                           <div class="contents">
-                              <strong></strong>
-                              <p></p>
-                           </div>
-                           <div class="contents">
-                              <strong>클롴 코딩</strong>
-                              <p>코엑스 COEX</p>
-                           </div>
-                           <div class="contents">
-                              <strong></strong>
-                              <p></p>
-                           </div>
-                           <a href="#" class="view_link">view</a>
-                        </li>
-                        <li id="work_c">
-                           <p></p>
-                           <span></span>
-                           <img src="" alt="">
-                           <div class="contents">
-                              <strong></strong>
-                              <p></p>
-                           </div>
-                           <div class="contents">
-                              <strong></strong>
-                              <p></p>
-                           </div>
-                           <div class="contents">
-                              <strong></strong>
-                              <p></p>
-                           </div>
-                           <a href="#" class="view_link">view</a>
-                        </li>
-                     </ul>
-                  </div>
-
-                  <h3>graphic design_</h3>
-                  <div class="por_div">
-                     <ul class="port_list">
-                        <li><a href="#work_aa">로고 디자인</a></li>
-                        <li><a href="#work_bb"></a></li>
-                     </ul>
-                     <ul class="port_thumbnails">
-                        <li id="work_aa">
-                           <p></p>
-                           <span></span>
-                           <img src="" alt="">
-                           <div class="contents">
-                              <strong></strong>
-                              <p></p>
-                           </div>
-                           <div class="contents">
-                              <strong></strong>
-                              <p></p>
-                           </div>
-                           <div class="contents">
-                              <strong></strong>
-                              <p></p>
-                           </div>
-                        </li>
-                        <li id="work_bb">
-                           <p></p>
-                           <span></span>
-                           <img src="" alt="">
-                           <div class="contents">
-                              <strong></strong>
-                              <p></p>
-                           </div>
-                           <div class="contents">
-                              <strong></strong>
-                              <p></p>
-                           </div>
-                           <div class="contents">
-                              <strong></strong>
-                              <p></p>
-                           </div>
-                        </li>
-                     </ul>
-                  </div>
-               </div>
-            </div>
-         </section>
-
-         <section class="contact">
-            <div class="inner">
-                <h2>contact_</h2>
-               <div class="contact_wrap">
-                  <span class="ending_msg">THANKS FOR <br>WHATCHING</span>
-                  <ul class="contact_info">
-                     <li>e-mail moon.daran.s@gmail.com</li>
-                     <li>phone 010 - 8225 - 8465</li>
-                     <li>github https://github.com/Daran0628</li>
-                  </ul>
-               </div>
-            </div>
-         </section>
-   </div>
-</body>
->>>>>>> 2b728dce731b00cfa1cbeeaeb476c1510ded666e
-</html>
