@@ -121,7 +121,7 @@ header .gnb_menu .gnb_close {position: absolute;top: 0.5rem;right: 1rem;}
 .profile .detail_info .detail_left {width: 55%;}
 .profile .basic_info {margin-top: 5rem;font-size: 2rem;}
 .profile .basic_info li {line-height: 2.3rem !important}
-.profile .detail_info .info_box {width: 100%;margin-top: 5rem;}
+.profile .detail_info .info_box {width: 100%;margin-top: 4.4rem;}
 .profile .detail_info span {
    display: block;
    margin-bottom: 2rem;
